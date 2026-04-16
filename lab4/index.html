@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная работа 3</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1>Зварювання та споріднені технології</h1>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Мета</a></li>
+                <li><a href="competencies.html">Компетенції</a></li>
+                <li><a href="components.html">Перелік компонент</a></li>
+                <li><a href="graph.html">Схема</a></li>
+                <li><a href="WorkingGroup.html">Робоча група</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <p class="subtitle">Рівень вищої освіти: другий (магістерський)</p>
+        <p class="subtitle">Галузь знань: G «Механічна інженерія»</p>
+        <p class="subtitle">Спеціальність: G9 «Прикладна механіка»</p>
+
+        <h2 id="goal">Мета освітньої програми</h2>
+        <p>Формування особистості фахівця, здатного вирішувати типові та складні непередбачувані завдання і проблеми
+            комплексного характеру в галузі механічна інженерія, спеціальності G9 «Прикладна механіка». Забезпечити
+            підготовку професіоналів здатних розв’язувати складні задачі і проблеми в галузі прикладної механіки на
+            основі розробки та впровадження інноваційних технологій зварювання та конструкцій складально-зварювального
+            технологічного оснащення, в сферах машинобудівного виробництва, викладацької та науково-дослідницької
+            діяльності.</p>
+        <hr>
+
+        <form> <!-- variant 4 -->
+            <div>
+                <label>Рівень ПК:</label>
+                <input type="radio" name="pc_level" value="beginner"> Початківець
+                <input type="radio" name="pc_level" value="middle"> Середній
+                <input type="radio" name="pc_level" value="advanced"> Просунутий
+            </div>
+            <div>
+                <label>Годин на навчання:</label>
+                <input type="range" name="hours" min="1" max="40" value="10">
+            </div>
+            <div>
+                <label>Очікування:</label>
+                <input type="checkbox" name="expectation" value="job"> Робота
+                <input type="checkbox" name="expectation" value="skills"> Навички
+                <input type="checkbox" name="expectation" value="certificate"> Сертифікат
+            </div>
+            <div>
+                <input type="submit" value="Subscribe!" />
+            </div>
+        </form>
+
+    </main>
+
+    <footer>
+        <p id="copyright">Хрін Ярослав © ІФНТУНГ, 2026 р.</p>
+    </footer>
+</body>
+
+</html>
