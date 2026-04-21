@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Лабораторна робота 4</title>
+    <title>Лабораторна робота 6</title>
     <link rel="stylesheet" href="./assets/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@400;700&display=swap"
         rel="stylesheet">
@@ -21,6 +21,7 @@
                 <li><a href="components.html">Перелік компонент</a></li>
                 <li><a href="graph.html">Схема</a></li>
                 <li><a href="WorkingGroup.html">Робоча група</a></li>
+                <li><a href="reports.html">Звіти</a></li>
             </ul>
         </nav>
     </header>
@@ -37,27 +38,38 @@
             основі розробки та впровадження інноваційних технологій зварювання та конструкцій складально-зварювального
             технологічного оснащення, в сферах машинобудівного виробництва, викладацької та науково-дослідницької
             діяльності.</p>
-        <hr>
+        
+        <h2>Профіль освітньої програми</h2>
+        <div class="frame-container">
+            <iframe class="frame"
+                src="https://drive.google.com/file/d/1z55GU8B8xONspc-5l_AXdxOsaH4Dsxne/preview" 
+                description="Профіль освітньої програми">
+            </iframe>
+        </div>
+        <div class="frame-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/a2pbYG7kdnU?si=CXKmp_JMqzotTAsO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
 
+        <h2>Тест "Чи підходить мені ІТ?"</h2>
         <form> <!-- variant 4 -->
             <div>
                 <label>Рівень ПК:</label>
-                <input type="radio" name="pc_level" value="beginner"> Початківець
-                <input type="radio" name="pc_level" value="middle"> Середній
-                <input type="radio" name="pc_level" value="advanced"> Просунутий
+                <p><input type="radio" name="pc_level" value="beginner"> Початківець</p>
+                <p><input type="radio" name="pc_level" value="middle"> Середній</p>
+                <p><input type="radio" name="pc_level" value="advanced"> Просунутий</p>
             </div>
             <div>
                 <label>Годин на навчання:</label>
-                <input type="range" name="hours" min="1" max="40" value="10">
+                <p><input type="range" name="hours" min="1" max="40" value="10"></p>
             </div>
             <div>
                 <label>Очікування:</label>
-                <input type="checkbox" name="expectation" value="job"> Робота
-                <input type="checkbox" name="expectation" value="skills"> Навички
-                <input type="checkbox" name="expectation" value="certificate"> Сертифікат
+                <p><input type="checkbox" name="expectation" value="job"> Робота</p>
+                <p><input type="checkbox" name="expectation" value="skills"> Навички</p>
+                <p><input type="checkbox" name="expectation" value="certificate"> Сертифікат</p>
             </div>
             <div>
-                <input type="submit" value="Subscribe!" />
+                <p><input type="submit" value="Subscribe!" /></p>
             </div>
         </form>
 
